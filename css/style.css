@@ -283,6 +283,18 @@ header {
 
 /* My Services Section */
 
+@media only screen {
+    .my-services {
+        height: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/james-harrison-vpOeXr5wmR4-unsplash.jpg);
